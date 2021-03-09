@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  padding: 15px;;
+}
+ tr:nth-child(even) {
+  background-color: #eee;
+}
+ tr:nth-child(odd) {
+ background-color: #fff;
+}
+</style>
+</head>
+<body>
+
+<h2>Table With Border</h2>
+
+<p>Use the CSS border property to add a border to the table.</p>
+
+<table style="width:100%">
+  <tr>
+    <th>Movie</th>
+    <th>Cast</th> 
+    <th>Reviews</th>
+    <th>Poster</th>
+    <th>trailer</th>
+  </tr>
+  <tr>
+    <td>moana</td>
+    <td>Smith</td>
+    <td rowspan="3">50/100</td>
+    <td><img src="mov.jpg" alt="Italian Trulli"  height=100 width=100></td>
+    <td><a href="https://www.youtube.com/watch?v=LKFuXETZUsI">trailer</a></td>
+  </tr>
+  <tr>
+    <td>moana</td>
+    <td>Smith</td>  
+    <td><img src="mov.jpg" alt="Italian Trulli"  height=100 width=100></td>
+    <td><a href="https://www.youtube.com/watch?v=LKFuXETZUsI">trailer</a></td>
+  </tr>
+  <tr>
+    <td>moana</td>
+    <td>Smith</td>
+    <td><img src="mov.jpg" alt="Italian Trulli"  height=100 width=100></td>
+    <td><a href="https://www.youtube.com/watch?v=LKFuXETZUsI">trailer</a></td>
+  </tr>
+  <tr>
+    <td colspan="5"><button type="button">Click Me!</button></td>
+    
+  </tr>
+</table>
+
+</body>
+</html>

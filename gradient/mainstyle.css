@@ -1,0 +1,23 @@
+div
+{
+
+    background: rgb(252, 247, 238);
+}
+div nav a
+{
+    background: linear-gradient(to bottom,rgb(0, 33, 31),rgb(3, 118, 110),rgb(0, 33, 31));
+    padding-left: 70.1px;
+    padding-right: 100.75px;
+    padding-bottom: 17px;
+    color:whitesmoke;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+div p
+{
+    border-style: solid;
+padding-left: 92.1px;
+    padding-right: 100.75px;
+    padding-bottom: 17px;
+}

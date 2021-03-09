@@ -1,0 +1,14 @@
+var x = 5;
+var y = 10;
+var add= x + y;
+alert( "outoput after addition ="+add);
+var sub= x-y;
+alert( "outoput after sub ="+sub);
+var z= x / y;
+alert( "outoput after division ="+z);
+var c= x * y;
+alert( "outoput after multiplication ="+c);
+var name="harika";
+document.write("printing"+name);
+name=promt("enter your name");
+console.log(name);
